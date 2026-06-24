@@ -1,4 +1,3 @@
-// Scroll suave
 document.querySelectorAll('a[href^="#"]').forEach(enlace => {
   enlace.addEventListener('click', function (e) {
     e.preventDefault();
@@ -6,7 +5,7 @@ document.querySelectorAll('a[href^="#"]').forEach(enlace => {
     if (destino) {
       destino.scrollIntoView({ behavior: 'smooth' });
     }
-    // Cierra el menú después de hacer clic en un enlace
+
     const navLinks = document.querySelector('.nav-links');
     if (navLinks) {
       navLinks.classList.remove('nav-open');
@@ -14,13 +13,13 @@ document.querySelectorAll('a[href^="#"]').forEach(enlace => {
   });
 });
 
-// Menú responsive
+
 const toggleBtn = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.cabecera-menu');
 const closeBtn = document.querySelector('.close-menu');
 if (toggleBtn && navLinks && closeBtn) {
   toggleBtn.addEventListener('click', () => {
-    navLinks.classList.toggle('nav-open'); // Cambia a toggle para abrir y cerrar
+    navLinks.classList.toggle('nav-open');
   });
   closeBtn.addEventListener('click', () => {
     navLinks.classList.remove('nav-open');
@@ -34,7 +33,6 @@ if (toggleBtn && navLinks && closeBtn) {
 
 
 
-// Slider de "Experiencia" y "Estudios"
 const tabs = document.querySelectorAll('.tab');
 const slider = document.querySelector('.slider-contenido');
 
@@ -50,14 +48,14 @@ if (tabs.length && slider) {
 }
 document.querySelectorAll('.tab').forEach((tab) => {
   tab.addEventListener('click', () => {
-    // Cambiar clase activa
+
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
 
-    // Obtener índice
+
     const index = parseInt(tab.getAttribute('data-index'));
 
-    // Mover slider
+
     const sliderContenido = document.querySelector('.slider-contenido');
     sliderContenido.style.transform = `translateX(-${index * 50}%)`;
   });
