@@ -264,10 +264,19 @@ header {
   font-weight: bold;
 }
 
-.cabecera-derecha .icono-contacto {
-  font-size: 1.4rem;
-  color: #ffffff;
+.icono-contacto {
   text-decoration: none;
+  display: inline-block;
+}
+
+.icono-contacto img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.cabecera-derecha .icono-contacto {
+  margin: 0 8px;
 }
 
 main {
