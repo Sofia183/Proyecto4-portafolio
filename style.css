@@ -12,8 +12,8 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .contenedor {
@@ -25,7 +25,7 @@ body {
 #presentacion {
   width: 100vw;
   margin-top: 0;
-  background-color: #e0e0e0;
+  background-color: #1a1a1a;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,7 +75,7 @@ body {
 #sobre-mi p {
   font-size: 1.25rem;
   line-height: 1.8;
-  color: #555;
+  color: #ffffff;
   max-width: 800px;
 }
 
@@ -90,10 +90,10 @@ body {
 
 .contenedor-logos {
   width: 100vw;
-  background-color: #f0f0f0;
+  background-color: #000000;
   overflow: hidden;
   padding: 20px 0;
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
 .slider {
@@ -138,7 +138,7 @@ body {
 }
 
 .contenedor-experiencia-estudios {
-  background-color: #e0e0e0; /* fondo gris claro */
+  background-color: #1a1a1a; /* fondo gris claro */
   padding: 2rem 1rem;
   width:100vw;
   text-align: center;
@@ -154,6 +154,7 @@ body {
   border-bottom: 2px solid transparent;
   font-size: 1.2rem;
   text-align: center;
+  color: #ffffff;
   
 }
 
@@ -206,6 +207,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center !important;
+  color: #ffffff;
 }
 
 
@@ -214,7 +216,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #ffffff;
+  background-color: #000000;
   gap: 2rem;
 }
 
@@ -235,7 +237,7 @@ header {
 .nombre-sofia {
   font-weight: bold;
   font-size: 1.2rem;
-  color: #333;
+  color: #ffffff;
 }
 
 .cabecera-menu .nav-links {
@@ -250,7 +252,7 @@ header {
     right: -100%;
     width: 80%;
     height: 100vh;
-    background-color: #fff;
+    background-color: #000000;
     transition: right 0.3s ease-in-out;
     z-index: 999;
   }
@@ -258,13 +260,13 @@ header {
 
 .cabecera-menu .nav-links li a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .cabecera-derecha .icono-contacto {
   font-size: 1.4rem;
-  color: #333;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -292,7 +294,7 @@ main {
 .contenedor-proyectos p {
   font-size: 1.2rem;
   margin-bottom: 40px;
-  color: #555;
+  color: #ffffff;
 }
 
 .carousel-wrapper {
@@ -341,12 +343,13 @@ main {
 .proyecto-card h2 {
   font-size: 1.4rem;
   margin: 10px 0 5px;
+  color: #000000;
 }
 
 .proyecto-card p {
   font-size: 1rem;
   margin-bottom: 15px;
-  color: #666;
+  color: #000000;
 }
 
 .proyecto-card .btn {
@@ -368,7 +371,7 @@ main {
   transform: translateY(-50%);
   z-index: 2;
   background: none;
-  color: #000000;
+  color: #ffffff;
   border: none;
   font-size: 50px;
   width: 40px;
@@ -392,7 +395,7 @@ section {
 
 
 .contenedor-contacto {
-  background-color: #e4bde9; /* lila claro */
+  background-color: #1a1a1a; /* lila claro */
   border: 50px;
   border-radius: 16px;
   padding: 60px 20px;
@@ -420,11 +423,13 @@ section {
 .contacto-izquierda h2 {
   font-size: 28px;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .contacto-izquierda p {
   font-size: 16px;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 
@@ -436,12 +441,13 @@ section {
 
 .btn-asunto {
   padding: 10px 16px;
-  background-color: white;
-  border: 2px solid #ccc;
+  background-color: #333333;
+  border: 2px solid #555555;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
   font-size: 14px;
+  color: #ffffff;
 }
 
 .btn-asunto.seleccionado,
@@ -468,8 +474,10 @@ section {
 .formulario-contacto textarea {
   padding: 12px;
   border-radius: 8px;
-  border: 1.5px solid #ccc;
+  border: 1.5px solid #555555;
   font-size: 14px;
+  background-color: #333333;
+  color: #ffffff;
 }
 
 .btn-enviar {
@@ -506,8 +514,8 @@ section {
 
 
 footer {
-  background-color: #222;
-  color: #666;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 10px;
 }
@@ -525,7 +533,7 @@ footer {
     display: none;
     width: 25px;
     height: 3px;
-    background-color: black;
+    background-color: white;
     margin: 5px 0;
   }
 
@@ -535,6 +543,7 @@ footer {
     font-weight: bold;
     align-self: flex-end;
     cursor: pointer;
+    color: #ffffff;
   }
 
 @media (max-width: 768px){
@@ -590,6 +599,7 @@ header h1 {
   .texto-presentacion p {
     font-size: 1rem;
     text-align: center;
+    color: #ffffff;
   }
 
     .cabecera-izquierda {
@@ -670,7 +680,7 @@ header h1 {
 
 
 .nav-links a {
-    color: orange;
+    color: #faa525;
     padding: 1.5rem;
     margin: 1rem 0;
     text-decoration: none;
@@ -678,7 +688,7 @@ header h1 {
   }
 
 .nav-links a:hover {
-  color: #343333;
+  color: #ffffff;
   }
 
 .nav-links.nav-open {
@@ -688,7 +698,7 @@ header h1 {
   position: absolute; 
   top: 60px; 
   right: 0px;
-  background: #343333;
+  background: #1a1a1a;
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
@@ -706,7 +716,7 @@ header h1 {
     background: none;
     border: none;
     font-size: 2rem;
-    color: orange;
+    color: #faa525;
     cursor: pointer;
   }
 
@@ -751,4 +761,3 @@ header h1 {
   }
 
 }
-
